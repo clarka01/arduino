@@ -38,3 +38,10 @@ config.h
 *.tmp
 *.bak
 *.log
+
+# other
+*.bfbs
+
+# Ignore everything in all folders and subfolders except .ino files
+**/*
+!**/*.ino
