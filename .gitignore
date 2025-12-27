@@ -1,0 +1,40 @@
+# Arduino .gitignore
+
+# Build directories
+build/
+*.o
+*.elf
+*.hex
+*.bin
+
+# Arduino IDE
+.build/
+.vscode/
+.idea/
+
+# Compiled files
+*.eep
+*.lss
+*.map
+*.sym
+
+# Libraries (if managed by package manager)
+# Uncomment if needed
+# libraries/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Credentials and secrets
+secrets.h
+credentials.h
+config.h
+
+# Temporary files
+*.tmp
+*.bak
+*.log
